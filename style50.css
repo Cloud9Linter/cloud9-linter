@@ -1,0 +1,77 @@
+.bar-status{
+    background: none!important;
+}
+
+.style50-no-issue{
+    color: green;
+}
+
+.style50-issue{
+    color: red;
+}
+
+.style50-pane{
+    background: #f1f1f1;
+    color: black;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    max-height: 100px;
+    overflow: scroll!important;
+    padding-top: 10px;
+    padding-bottom: 20px;
+	white-space: nowrap;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	list-style-type: none;
+}
+
+.style50-pane-content{
+    max-height: 80px;
+    overflow: scroll!important;
+
+	list-style-type: none;
+	padding-left: 0;
+	margin-top: 0;
+	bottom: 20px;
+}
+
+.style50-pane-content li{
+	padding-bottom: 3px;
+	padding-top: 3px;
+}
+
+.style50-title{
+    padding: 5px 10px;
+    background: #dddddd;
+    border-radius: 5px;
+}
+
+.style50-warning{
+    padding: 5px 10px;
+    color: rgb(255,255,255);
+    background: #FF8C00;
+    border-radius: 5px;
+    width: 40px;
+    max-width: 40px;
+    display: inline-block;
+    text-align: center;
+}
+
+.style50-error{
+    padding: 5px 10px;
+    color: rgb(255,255,255);
+    background: rgb(255,0,0);;
+    border-radius: 5px;
+    width: 40px;
+    max-width: 40px;
+    display: inline-block;
+    text-align: center;
+}
+
+.style50-label{
+    float: left;
+    cursor: pointer;
+    margin: 1px 10px 4px 3px;
+    min-height: 15px;
+}

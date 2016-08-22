@@ -1,0 +1,31 @@
+{
+  "name": "linter",
+  "description": "A base linter API for Cloud9",
+  "version": "0.0.1",
+  "author": "Tobias Büschel",
+  "contributors": [
+    {
+      "name": "",
+      "email": ""
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tobiasbueschel/cloud9-linter"
+  },
+  "plugins": {
+    "cloud9-linter": {}
+  },
+  "categories": [
+    "miscellaneous"
+  ],
+  "licenses": [],
+  "dependencies":{
+      "cloud9-linter": "git+https://github.com/tobiasbueschel/cloud9-linter"
+  },
+  "devDependencies": {
+    "eslint": "3.3.0",
+    "eslint-config-airbnb-base": "5.0.2",
+    "eslint-plugin-import": "1.13.0"
+  }
+}
