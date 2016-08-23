@@ -2,7 +2,7 @@
 [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg?maxAge=2592000)](https://gitter.im/cloud9-linter/Lobby)
 [![MIT License](https://img.shields.io/npm/l/harvard-houses.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 
-> a base linter API for Cloud9 - inspired by [Atom linter](https://github.com/steelbrain/linter).
+> a base linter API for Cloud9 - inspired by [Linter](https://github.com/steelbrain/linter).
 
 Cloud9-Linter is a base linter provider for the [Cloud9 IDE](https://c9.io/). Additionally, you need to install a specific linter for your language. You will find a full list of Cloud9 language plugins [here](https://github.com/c9?utf8=%E2%9C%93&query=language).
 
