@@ -19,11 +19,15 @@
   "categories": [
     "miscellaneous"
   ],
-  "licenses": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tobiasbueschel/cloud9-linter/issues"
+  },
   "dependencies":{
       "cloud9-linter": "git+https://github.com/tobiasbueschel/cloud9-linter"
   },
   "devDependencies": {
+    "codecov.io": "0.1.6",
     "eslint": "3.3.0",
     "eslint-config-airbnb-base": "5.0.2",
     "eslint-plugin-import": "1.13.0"
